@@ -125,5 +125,10 @@ public class calculadoraMain extends JFrame{
 	    private void Som() {
 	        tfR.setText(Integer.toString(Integer.parseInt(tf1.getText()) + Integer.parseInt(tf2.getText())));
 	    }
+	    
+	    private void Sub() {
+	        tfR.setText(Integer.toString(Integer.parseInt(tf1.getText()) - Integer.parseInt(tf2.getText())));
+	    }
+
 
 }
