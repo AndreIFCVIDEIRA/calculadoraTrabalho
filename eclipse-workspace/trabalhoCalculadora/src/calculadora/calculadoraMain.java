@@ -133,6 +133,10 @@ public class calculadoraMain extends JFrame{
 	    private void Multi() {
 	        tfR.setText(Integer.toString(Integer.parseInt(tf1.getText()) * Integer.parseInt(tf2.getText())));
 	    }
+	    private void Div(){
+	        tfR.setText(Double.toString(Double.parseDouble(tf1.getText()) / Double.parseDouble(tf2.getText())));
+	    }
+
 
 
 }
